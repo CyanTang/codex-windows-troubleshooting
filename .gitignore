@@ -1,0 +1,17 @@
+# Exclude private diagnostics and credentials
+*.log
+*.sqlite
+*.sqlite-*
+*.db
+*.zip
+*.7z
+*.rar
+*.env
+.env.*
+*.pem
+*.p12
+*.pfx
+*token*
+*secret*
+__pycache__/
+.DS_Store
